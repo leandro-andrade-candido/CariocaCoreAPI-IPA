@@ -1,0 +1,37 @@
+#vpc:
+#  securityGroupIds:
+#    - "sg-4623cf28"
+#  subnetIds:
+#    - "subnet-8f5280c3"
+#    - "subnet-08630972"
+#    - "subnet-b66d51de"
+#dev-without-vpc: "false"
+#
+## app and org for use with dashboard.serverless.com
+app: "ipa-dev"
+#app: "wm-partners"
+org: "carioca"
+#
+#databases:
+#  wm_partners:
+#    DATABASE_HOST: "database-wm-partners.cluster-c7pvxrw77idz.us-east-2.rds.amazonaws.com"
+#    DATABASE_NAME: "partners"
+#    DATABASE_USER: "admin"
+#    DATABASE_PASSWORD: "{>$_2FaW"
+#
+#external-services:
+#  BUSTER_URL: "buster1.stg.madeiramadeira.com.br"
+#  BUSTER_URL_SYNC: "/syncwm"
+#  BUSTER_TOKEN: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1NDIwNDE5MjQsImp0aSI6IiQyeSQxMCRPTVFtTWphbUJObnFsZzJlYktzV3NlWFwvenNlM0dOZm5vbVwvQ0FvR2xyM3FuS3cxcEtQSGc2IiwiaXNzIjoiYnVzdGVyLm1hZGVpcmFtYWRlaXJhLmNvbS5iciIsIm5iZiI6MTU0MjA0MTkyNCwiZXhwIjoxNjk5NzIxOTI0LCJkYXRhIjp7InN1Y2Nlc3MiOnRydWUsImNsaWVudCI6Indhcm1hY2hpbmUifX0.dw2M-lzj6IVg3RqrGPyuc73ToAT8WVzquvS1mfYXLeI9A1XRfe28FPaKEiAgksmflD_BQLMqCP6u9aLjO1iUbQ"
+#
+provider:
+  apiKeys: []
+  profile: leandro-carioca
+#
+tags:
+  Env: dev
+#
+#functions:
+#  wm-partners-buster:
+#    events:
+#      - sns: "arn:aws:sns:us-east-2:787278094283:wm-partners-dev"
