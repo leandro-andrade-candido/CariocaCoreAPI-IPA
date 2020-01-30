@@ -23,7 +23,7 @@ provider:
   region: us-east-1
   stage: ${opt:stage, 'dev'}
   memorySize: 128
-  timeout: 1
+  timeout: 15
   apiKeys: ${file(env/${opt:stage}.yml):provider.apiKeys}
   profile: ${file(env/${opt:stage}.yml):provider.profile}
   tags:

@@ -4,6 +4,9 @@ org: "carioca"
 provider:
   apiKeys: []
   profile: leandro-carioca
+  environment:
+    ENV: "dev"
+    REDIS_ENDPOINT: "redis.3i5vca.0001.use1.cache.amazonaws.com"
 
 tags:
   Env: dev

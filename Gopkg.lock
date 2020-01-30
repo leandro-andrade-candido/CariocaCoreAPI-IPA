@@ -24,6 +24,28 @@
   revision = "297441e035482346a960053c9ea29669b13e1025"
 
 [[projects]]
+  digest = "1:dcf8316121302735c0ac84e05f4686e3b34e284444435e9a206da48d8be18cb1"
+  name = "github.com/gomodule/redigo"
+  packages = [
+    "internal",
+    "redis",
+  ]
+  pruneopts = ""
+  revision = "9c11da706d9b7902c6da69c592f75637793fe121"
+  version = "v2.0.0"
+
+[[projects]]
+  digest = "1:4611e727460d3634059cbe6e0a4799aaeb426ef8150e3b26056c83e1106831c4"
+  name = "github.com/jmoiron/sqlx"
+  packages = [
+    ".",
+    "reflectx",
+  ]
+  pruneopts = ""
+  revision = "d161d7a76b5661016ad0b085869f77fd410f3e6a"
+  version = "v1.2.0"
+
+[[projects]]
   branch = "master"
   digest = "1:e71cc6b377264002aec0d9c235087e51ad7a3c1fb341bb4baa84709308b94fe8"
   name = "github.com/kardianos/osext"
@@ -69,6 +91,8 @@
   input-imports = [
     "github.com/aws/aws-lambda-go/events",
     "github.com/aws/aws-lambda-go/lambda",
+    "github.com/gomodule/redigo/redis",
+    "github.com/jmoiron/sqlx",
     "github.com/nakagami/firebirdsql",
   ]
   solver-name = "gps-cdcl"
