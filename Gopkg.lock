@@ -15,12 +15,61 @@
   revision = "b5b7267d297de263cc5b61f8c37543daa9c95ffd"
   version = "v1.13.3"
 
+[[projects]]
+  branch = "master"
+  digest = "1:94ce318e05eef6c746503a5b06f8c4c7679760d3a4b27b454400c4c52f3f70dd"
+  name = "github.com/cznic/mathutil"
+  packages = ["."]
+  pruneopts = ""
+  revision = "297441e035482346a960053c9ea29669b13e1025"
+
+[[projects]]
+  branch = "master"
+  digest = "1:e71cc6b377264002aec0d9c235087e51ad7a3c1fb341bb4baa84709308b94fe8"
+  name = "github.com/kardianos/osext"
+  packages = ["."]
+  pruneopts = ""
+  revision = "2bc1f35cddc0cc527b4bc3dce8578fc2a6c11384"
+
+[[projects]]
+  branch = "master"
+  digest = "1:f1e7d1d443a8b3c529307f7179b93e5c35de8119d73fa37af2b1f40254815c54"
+  name = "github.com/nakagami/firebirdsql"
+  packages = ["."]
+  pruneopts = ""
+  revision = "8048f7ca3088e5b92d23099596c07271834d158c"
+
+[[projects]]
+  branch = "master"
+  digest = "1:839ef66e10303d306070b79cb5f7c1be4030b6c6ae33afb4279cc53b618d9853"
+  name = "github.com/remyoudompheng/bigfft"
+  packages = ["."]
+  pruneopts = ""
+  revision = "6a916e37a237384e18eefa3270c09247db1ecf50"
+
+[[projects]]
+  digest = "1:615c827f6a892973a587c754ae5fad7acfc4352657aff23d0238fe0ba2a154df"
+  name = "github.com/shopspring/decimal"
+  packages = ["."]
+  pruneopts = ""
+  revision = "cd690d0c9e2447b1ef2a129a6b7b49077da89b8e"
+  version = "1.1.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:5fc0b197ad2b28accead8a1f77fb28fc8ad90d82321bbcb7b8bf681868cd8b4c"
+  name = "gitlab.com/nyarla/go-crypt"
+  packages = ["."]
+  pruneopts = ""
+  revision = "d9a5dc2b789bc330075d4b805d9b7c971f2865a1"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
     "github.com/aws/aws-lambda-go/events",
     "github.com/aws/aws-lambda-go/lambda",
+    "github.com/nakagami/firebirdsql",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
